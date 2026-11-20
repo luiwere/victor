@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/cache/
+.yarn/install-state.yml
+.yarn/releases/
+
+# Build output
+/dist
+/build
+/.next
+/.nuxt
+/.output
+/.vercel
+/netlify
+
+# Environment & local config
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+*.local
+.envrc
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+npm-debug.log*
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage & test
+/coverage
+/.nyc_output
+/.pytest_cache
+/.vitest
+*.lcov
+
+# Misc
+*.tgz
+*.tar.gz
+.DOCKERIGNORE

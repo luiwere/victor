@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Victor Too | Drums • Tattoo Artist • Mechanical Engineering</title>
+  <meta name="title" content="Victor Too | Drums • Tattoo Artist • Mechanical Engineering" />
+  <meta name="description" content="Official platform of Victor Too. Sells thick cardboard drums with metal rings that keep grains 100% moisture free, custom sterile tattoo artistry, and finishing mechanical engineering." />
+  <meta name="keywords" content="Victor Too, Drums, Cardboard grain drums Kenya, Moisture free grain drum, metal rings drum, Tattoo Artist Kenya, Eldoret tattoo artist, fluffy_lizz, captain.icur, mechanical engineering Kenya, 0758286766" />
+  <meta name="author" content="Victor Too" />
+
+  <!-- Open Graph / Facebook / WhatsApp Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://victortoo.ke/" />
+  <meta property="og:title" content="Victor Too | Master Tattoo Artist • Moisture-Proof Drums • Mechanical Engineering" />
+  <meta property="og:description" content="Thick cardboard drums with metal rings preventing moisture & sweating for grain storage, custom sterile tattoo artistry, and precision mechanical engineering solutions." />
+  <meta property="og:image" content="assets/images/drums.jpeg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Victor Too | Drums & Tattoo Artist & Mechanical Engineer" />
+  <meta property="twitter:description" content="100% moisture-free cardboard drums with metal rings and custom tattoo artistry by Victor Too." />
+  <meta property="twitter:image" content="assets/images/drums.jpeg" />
+
+  <!-- Favicon Monogram -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f59e0b'/><text x='50' y='68' font-size='55' font-family='system-ui, sans-serif' font-weight='900' text-anchor='middle' fill='%23000'>VT</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="src/styles/app.css" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Victor Too",
+    "telephone": "+254758286766",
+    "email": "erictoo04@gmail.com",
+    "identifier": "41702892",
+    "jobTitle": "Tattoo Artist, Agricultural Storage Specialist, Mechanical Engineer",
+    "sameAs": [
+      "https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy",
+      "https://www.tiktok.com/@captain.icur"
+    ],
+    "knowsAbout": [
+      "Thick Cardboard Drums with Metal Rings",
+      "Moisture-Free Grain Storage",
+      "Custom Tattoo Design & Sterilization",
+      "Mechanical Engineering & 3D CAD Modeling",
+      "Structural Welding & Metal Fabrication"
+    ]
+  }
+  </script>
+
+  <!-- React 18 & Babel Standalone for Instant Zero-Setup In-Browser Execution -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root">
+    <!-- Initial Loading State -->
+    <div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #0a0c10; color: #fff; font-family: system-ui, sans-serif; gap: 1rem;">
+      <div style="width: 50px; height: 50px; border-radius: 12px; background: #f59e0b; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.5rem; color: #000;">VT</div>
+      <p style="color: #9ca3af; font-size: 0.95rem;">Loading Victor Too Multi-Page Platform...</p>
+    </div>
+  </div>
+
+  <!-- Vite module entry point (used when running 'npm run dev' or 'vite') -->
+  <script type="module" src="/src/main.jsx"></script>
+
+  <!-- Standalone In-Browser React Script (Enables double clicking index.html or running static server with zero build step) -->
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    // --- DATA MODULES ---
+
+    const grainBenefits = [
+      {
+        icon: "🛡️",
+        title: "Zero Moisture Sweating",
+        description: "Unlike plastic drums that sweat with temperature swings, thick kraft cardboard acts as a natural thermal insulator that keeps stored grains completely dry."
+      },
+      {
+        icon: "⚙️",
+        title: "Reinforced Galvanized Metal Rings",
+        description: "Heavy-duty steel chimes protect top and base rims from impact and rodent bite-through, providing immense hoop strength."
+      },
+      {
+        icon: "🔒",
+        title: "Lever-Action Metal Clamp",
+        description: "Fastens the lid tightly shut, locking out ambient humidity, dust, and insects."
+      },
+      {
+        icon: "🌱",
+        title: "Chemical-Free Preservation",
+        description: "Preserve your maize, beans, and seeds naturally without requiring synthetic pesticide dusting powders."
+      }
+    ];
+
+    const portfolioProjects = [
+      {
+        id: "drum-1",
+        category: "drums",
+        categoryLabel: "Drums",
+        title: "Thick Cardboard Drums with Metal Rings Setup",
+        subtitle: "Moisture-Free Grain Preservation Depot",
+        description: "Equipped an agricultural producer with heavy-duty thick cardboard fibre drums reinforced with galvanized steel rings and clamp bands, safely preserving yellow maize harvest completely free from moisture sweating, mold, and humidity.",
+        image: "assets/images/drums.jpeg",
+        tags: ["Thick Cardboard Drums", "Metal Rings", "Moisture-Free", "Maize Storage"],
+        specs: "Capacity: High-Volume Grain Storage | Material: Multi-ply Kraft Cardboard & Steel Chimes | Zero sweating"
+      },
+      {
+        id: "tattoo-1",
+        category: "tattoo",
+        categoryLabel: "Tattoo Art",
+        title: "Botanical Fine-Line & Geometry",
+        subtitle: "Custom Stipple Shading & Micro-Precision",
+        description: "Detailed custom floral piece combined with clean sacred geometric accents. Done using premium 3RL single needle groupings with sterile Bishop rotary technology.",
+        image: "assets/images/tatoo.jpeg",
+        tags: ["Fine Line", "Micro Realism", "Custom Art", "Sterile Ink"],
+        specs: "Session time: 3.5 hrs | Placement: Forearm / Shoulder | Custom stencil"
+      },
+      {
+        id: "eng-1",
+        category: "engineering",
+        categoryLabel: "Mechanical Engineering",
+        title: "Precision Planetary Gearbox CAD & Machining",
+        subtitle: "Mechanical Design & Prototyping",
+        description: "Engineered 3D CAD models and physical test assembly for high-torque reduction gearbox. Includes tolerance calculations, gear tooth stress simulation, and precision lathe turning.",
+        image: "assets/images/engineer.jpeg",
+        tags: ["CAD / SolidWorks", "Tolerance Fitting", "Stress Simulation", "Fabrication"],
+        specs: "Material: Carbon steel & Bronze alloy | Tolerance: ±0.02 mm | Efficiency: 96%"
+      }
+    ];
+
+
+    // --- SHARED NAVBAR ---
+    function Navbar({ currentRoute = '#/' }) {
+      const [mobileOpen, setMobileOpen] = useState(false);
+
+      const navLinks = [
+        { href: '#/', label: 'Home' },
+        { href: '#/drums', label: 'Drums' },
+        { href: '#/tattoo', label: 'Tattoo Art' },
+        { href: '#/engineering', label: 'Engineering' },
+        { href: '#/contact', label: 'Contact' },
+      ];
+
+      const isActive = (href) => {
+        if (href === '#/') {
+          return currentRoute === '#/' || currentRoute === '' || currentRoute === '#/home';
+        }
+        return currentRoute.startsWith(href);
+      };
+
+      return (
+        <nav className={`navbar ${mobileOpen ? 'mobile-menu-open' : ''}`}>
+          <div className="container nav-container">
+            <a href="#/" className="brand-logo" onClick={() => setMobileOpen(false)}>
+              <div className="logo-badge">VT</div>
+              <div className="brand-text">
+                <h1>Victor Too</h1>
+                <span>Artisan • Engineer • Drums</span>
+              </div>
+            </a>
+
+            <ul className="nav-links">
+              {navLinks.map((link) => (
+                <li key={link.href}>
+                  <a 
+                    href={link.href} 
+                    className={isActive(link.href) ? 'active' : ''}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+
+            <div className="nav-actions">
+              <a
+                href="https://wa.me/254758286766?text=Hello%20Victor,%20I'm%20visiting%20your%20website%20and%20would%20like%20to%20make%20an%20inquiry."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-whatsapp-sm"
+              >
+                <span>💬</span> WhatsApp (0758286766)
+              </a>
+            </div>
+
+            <button 
+              className="mobile-menu-btn" 
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Toggle Navigation"
+            >
+              {mobileOpen ? '✕' : '☰'}
+            </button>
+          </div>
+        </nav>
+      );
+    }
+
+    // --- SHARED FOOTER ---
+    function Footer() {
+      return (
+        <footer className="footer">
+          <div className="container">
+            <div className="footer-top">
+              <div className="footer-brand">
+                <h3>Victor Too</h3>
+                <p>
+                  Tattoo Artist • Moisture-Proof Cardboard Drums with Metal Rings • Finishing Mechanical Engineering. 
+                  Engineering precision and creative artistry serving clients nationwide across Kenya.
+                </p>
+                <div className="footer-social-row">
+                  <a 
+                    href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="footer-social-link"
+                    title="Instagram (@fluffy_lizz)"
+                  >
+                    📸
+                  </a>
+                  <a 
+                    href="https://www.tiktok.com/@captain.icur" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="footer-social-link"
+                    title="TikTok (@captain.icur)"
+                  >
+                    🎵
+                  </a>
+                  <a 
+                    href="https://wa.me/254758286766" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="footer-social-link"
+                    title="WhatsApp (0758286766)"
+                  >
+                    💬
+                  </a>
+                  <a 
+                    href="mailto:erictoo04@gmail.com" 
+                    className="footer-social-link"
+                    title="Email (erictoo04@gmail.com)"
+                  >
+                    ✉️
+                  </a>
+                </div>
+              </div>
+
+              <div className="footer-col">
+                <h5>Dedicated Pages</h5>
+                <ul>
+                  <li><a href="#/">Home Overview</a></li>
+                  <li><a href="#/drums">Drums Page</a></li>
+                  <li><a href="#/tattoo">Tattoo Art Studio Page</a></li>
+                  <li><a href="#/engineering">Mechanical Engineering Page</a></li>
+                  <li><a href="#/contact">Contact & Credentials Page</a></li>
+                </ul>
+              </div>
+
+              <div className="footer-col">
+                <h5>Direct Contact</h5>
+                <ul>
+                  <li><a href="tel:0758286766">Phone: 0758286766</a></li>
+                  <li><a href="https://wa.me/254758286766">WhatsApp: +254 758 286 766</a></li>
+                  <li><a href="mailto:erictoo04@gmail.com">erictoo04@gmail.com</a></li>
+                  <li><span style={{ color: 'var(--accent-amber)', fontSize: '0.85rem', fontWeight: 600 }}>National ID: 41702892</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="footer-bottom">
+              <p>© {new Date().getFullYear()} Victor Too. All rights reserved.</p>
+              <p style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span>Crafted with React & Modern Web Standards</span>
+                <span>•</span>
+                <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} style={{ color: 'var(--accent-amber)', fontWeight: 600, cursor: 'pointer' }}>
+                  Back to Top ↑
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <a 
+            href="https://wa.me/254758286766?text=Hi%20Victor,%20I'm%20contacting%20you%20via%20your%20website." 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="floating-whatsapp-btn"
+            aria-label="Direct WhatsApp Chat"
+            title="Chat with Victor Too on WhatsApp"
+          >
+            💬
+          </a>
+        </footer>
+      );
+    }
+
+    // --- PAGE 1: HOME PAGE ---
+    function HomePage() {
+      const [activeFilter, setActiveFilter] = useState('all');
+      const [selectedProject, setSelectedProject] = useState(null);
+
+      const filteredProjects = activeFilter === 'all'
+        ? portfolioProjects
+        : portfolioProjects.filter((p) => p.category === activeFilter);
+
+      const handleInquireProject = (project) => {
+        const text = encodeURIComponent(
+          `Hello Victor, I saw your project "${project.title}" (${project.categoryLabel}) on your website and would like more information or a similar service.`
+        );
+        window.open(`https://wa.me/254758286766?text=${text}`, '_blank');
+      };
+
+      return (
+        <div className="page-wrapper">
+          {/* Main Hero */}
+          <section id="hero" className="hero-section">
+            <div className="container hero-grid">
+              <div className="hero-content">
+                <div className="hero-pill-badge">
+                  <span className="pulse-dot"></span>
+                  <span>Active & Accepting Inquiries Across Kenya</span>
+                </div>
+
+                <h1 className="hero-title">
+                  Precision Engineering. <br />
+                  <span className="gradient-text">Artistic Mastery.</span> <br />
+                  Grain Preservation.
+                </h1>
+
+                <p className="hero-subtitle">
+                  Welcome to the official portfolio and commercial hub of <strong>Victor Too</strong>. 
+                  Blending technical rigor with artisanal craft — offering thick cardboard drums with metal rings 
+                  that keep grains 100% free from moisture, custom sterile tattoo artistry, and finishing up formal 
+                  qualifications in Mechanical Engineering.
+                </p>
+
+                <div className="hero-specialty-tags">
+                  <a href="#/drums" className="spec-tag drums">
+                    <span>🌾</span> Cardboard Drums with Metal Rings
+                  </a>
+                  <a href="#/tattoo" className="spec-tag tattoo">
+                    <span>✒️</span> Tattoo Art Studio
+                  </a>
+                  <a href="#/engineering" className="spec-tag eng">
+                    <span>⚙️</span> Mechanical Engineering (Final Year)
+                  </a>
+                </div>
+
+                <div className="hero-cta-group">
+                  <a href="#/drums" className="btn-primary" style={{ background: 'var(--accent-green)', color: '#000' }}>
+                    <span>🌾</span> Explore Drums Page
+                  </a>
+                  <a href="#/tattoo" className="btn-secondary">
+                    <span>✒️</span> Book Tattoo
+                  </a>
+                </div>
+
+                <div className="hero-trust-bar">
+                  <div className="trust-item">
+                    <strong>100%</strong>
+                    <span>Moisture & Pest Free</span>
+                  </div>
+                  <div className="trust-item">
+                    <strong>Hospital-Grade</strong>
+                    <span>Tattoo Hygiene</span>
+                  </div>
+                  <div className="trust-item">
+                    <strong>Eng. Rigor</strong>
+                    <span>CAD & Metalwork</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="hero-visual">
+                <div className="hero-visual-card">
+                  <div className="hero-visual-img-wrap">
+                    <img 
+                      src="assets/images/drums.jpeg" 
+                      alt="Victor Too - Thick Cardboard Grain Storage Drums with Metal Rings" 
+                    />
+                  </div>
+                  <div className="hero-card-floating-badge">
+                    <div className="badge-info">
+                      <h4>Victor Too</h4>
+                      <p>Eldoret / Rift Valley / Nationwide Logistics</p>
+                    </div>
+                    <span className="id-chip">Verified ID: 41702892</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Dedicated Portals Section */}
+          <section className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag">Dedicated Specialized Portals</span>
+                <h2 className="section-title">Explore Victor Too's Three Disciplines</h2>
+                <p className="section-desc">
+                  Each discipline is operated with deep focus, certified tools, and dedicated service standards. 
+                  Click into any portal to view in-depth details, specifications, and direct ordering.
+                </p>
+              </div>
+
+              <div className="portal-cards-grid">
+                {/* Portal 1: Drums */}
+                <div className="portal-card drum-portal">
+                  <div className="portal-img-wrap">
+                    <img src="assets/images/drums.jpeg" alt="Thick Cardboard Drums with Metal Rings" />
+                    <span className="portal-badge green">Moisture-Proof Storage</span>
+                  </div>
+                  <div className="portal-body">
+                    <h3>Drums Page</h3>
+                    <p>
+                      Thick cardboard drums reinforced with galvanized metal rings, primarily used to store grains 
+                      because they keep them 100% free from moisture, internal sweating, and mold.
+                    </p>
+                    <div className="portal-highlights">
+                      <span>🛡️ Zero Sweating</span>
+                      <span>⚙️ Galvanized Rings</span>
+                      <span>🚚 Nationwide Delivery</span>
+                    </div>
+                    <a href="#/drums" className="btn-portal-action green">
+                      Explore Drums Page <span>→</span>
+                    </a>
+                  </div>
+                </div>
+
+                {/* Portal 2: Tattoo Artistry */}
+                <div className="portal-card tattoo-portal">
+                  <div className="portal-img-wrap">
+                    <img src="assets/images/tatoo.jpeg" alt="Tattoo Studio & Art Equipment" />
+                    <span className="portal-badge pink">Artisan Studio</span>
+                  </div>
+                  <div className="portal-body">
+                    <h3>Custom Tattoo Artistry & Studio</h3>
+                    <p>
+                      Wearable art tailored to human anatomy. Specializing in fine-line botanicals, 
+                      sacred geometry, black & grey realism, lettering, and cover-ups with clinical sterilization.
+                    </p>
+                    <div className="portal-highlights">
+                      <span>📸 IG: @fluffy_lizz</span>
+                      <span>🎵 TikTok: @captain.icur</span>
+                      <span>🏥 100% Sterile</span>
+                    </div>
+                    <a href="#/tattoo" className="btn-portal-action pink">
+                      Explore Tattoo Studio Page <span>→</span>
+                    </a>
+                  </div>
+                </div>
+
+                {/* Portal 3: Mechanical Engineering */}
+                <div className="portal-card eng-portal">
+                  <div className="portal-img-wrap">
+                    <img src="assets/images/engineer.jpeg" alt="Mechanical Engineering CAD & Workshop" />
+                    <span className="portal-badge cyan">Technical Foundation</span>
+                  </div>
+                  <div className="portal-body">
+                    <h3>Mechanical Engineering & Fabrication</h3>
+                    <p>
+                      Finishing up qualifications in Mechanical Engineering. Delivering precision 
+                      3D CAD drafting in SolidWorks, structural metal fabrication, welding jigs, and machinery repair.
+                    </p>
+                    <div className="portal-highlights">
+                      <span>📐 3D CAD SolidWorks</span>
+                      <span>⚡ Structural Welding</span>
+                      <span>🎓 Final-Year Degree</span>
+                    </div>
+                    <a href="#/engineering" className="btn-portal-action cyan">
+                      Explore Engineering Page <span>→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Verified ID Banner */}
+          <section className="section" style={{ paddingTop: 0 }}>
+            <div className="container">
+              <div className="credentials-banner">
+                <div className="cred-left">
+                  <span className="cred-shield">🛡️</span>
+                  <div className="cred-text">
+                    <h4>Official Verification & Accountability</h4>
+                    <p>
+                      Transacting with confidence. Victor Too is a registered professional operating in Kenya, 
+                      guaranteeing high standard delivery of agricultural storage drums and sterile tattoo services.
+                    </p>
+                  </div>
+                </div>
+                <div className="cred-right">
+                  <div className="id-badge-large">NATIONAL ID: 41702892</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      );
+    }
+
+    // --- PAGE 2: DRUMS PAGE ---
+    function DrumsPage() {
+      const [quantity, setQuantity] = useState(2);
+      const [grainType, setGrainType] = useState('Shelled Maize / Corn');
+      const [location, setLocation] = useState('');
+      const [customerName, setCustomerName] = useState('');
+      const [customerPhone, setCustomerPhone] = useState('');
+      const [notes, setNotes] = useState('');
+      const [selectedImage, setSelectedImage] = useState(null);
+
+      const handleOrderSubmit = (e) => {
+        e.preventDefault();
+        let message = `*CARDBOARD DRUMS WITH METAL RINGS ORDER / INQUIRY*\n`;
+        message += `👤 Name: ${customerName || 'Farmer / Client'}\n`;
+        message += `📞 Phone: ${customerPhone || 'Not provided'}\n`;
+        message += `──────────────────\n`;
+        message += `📦 *Item:* Thick Cardboard Drums with Metal Rings\n`;
+        message += `🔢 *Quantity:* ${quantity} Units\n`;
+        message += `🌾 *Stored Grain:* ${grainType}\n`;
+        message += `📍 *Delivery Town/County:* ${location || 'To be confirmed'}\n`;
+        if (notes) {
+          message += `📝 *Notes/Requirements:* ${notes}\n`;
+        }
+        message += `──────────────────\n`;
+        message += `Sent from Victor Too's Drums Page.`;
+
+        const encoded = encodeURIComponent(message);
+        window.open(`https://wa.me/254758286766?text=${encoded}`, '_blank');
+      };
+
+      return (
+        <div className="page-wrapper">
+          {/* Page Header / Hero */}
+          <section className="page-hero">
+            <div className="container">
+              <div className="breadcrumb">
+                <a href="#/">Home</a> <span>/</span> <span>Drums</span>
+              </div>
+              <div className="page-hero-grid">
+                <div>
+                  <span className="section-tag green">Moisture-Proof Storage</span>
+                  <h1 className="page-hero-title">
+                    Drums Page
+                  </h1>
+                  <p className="page-hero-subtitle">
+                    Thick cardboard drums reinforced with sturdy galvanized metal rings, primarily used 
+                    to store grains because they keep them completely free from moisture. 
+                    Unlike plastic or steel containers that sweat and produce condensation when temperatures swing, 
+                    heavy-duty multi-ply cardboard acts as a natural thermal insulator that keeps maize, beans, 
+                    and wheat dry, sweet, and mold-free.
+                  </p>
+                  <div className="hero-cta-group">
+                    <a href="#order-drums" className="btn-primary" style={{ background: 'var(--accent-green)', color: '#000' }}>
+                      <span>🛒</span> Order Drums on WhatsApp
+                    </a>
+                    <a href="#why-cardboard" className="btn-secondary">
+                      <span>🛡️</span> Why Cardboard with Metal Rings
+                    </a>
+                  </div>
+                </div>
+                <div className="page-hero-visual">
+                  <img 
+                    src="assets/images/drums.jpeg" 
+                    alt="Thick Cardboard Grain Storage Drums with Galvanized Metal Rings" 
+                  />
+                  <div className="visual-caption-badge">
+                    <span>🌾 Thick Cardboard • Galvanized Metal Rings • 100% Moisture Free</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* The Moisture Problem vs Cardboard Drum Solution */}
+          <section id="why-cardboard" className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag">Thermal Physics & Moisture Control</span>
+                <h2 className="section-title">Why Thick Cardboard with Metal Rings Protects Grain from Moisture</h2>
+                <p className="section-desc">
+                  In Kenya's agricultural regions, day-and-night temperature swings cause moisture to ruin stored harvest. 
+                  Here is why thick cardboard drums with metal rings are the premier choice for moisture-free storage:
+                </p>
+              </div>
+
+              <div className="comparison-cards-row">
+                <div className="problem-box">
+                  <h3 style={{ color: '#ef4444', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span>⚠️</span> Why Plastic Drums & Sacks Fail
+                  </h3>
+                  <ul className="styled-list">
+                    <li><strong>Internal Sweating & Condensation:</strong> Plastic and metallic walls heat up in hot afternoons and chill rapidly at night, creating moisture droplets (condensation) that drip onto the grain.</li>
+                    <li><strong>Aflatoxin & Mold Outbreaks:</strong> Condensation leads to damp grain clusters, triggering toxic mold and rendering maize unsafe for consumption.</li>
+                    <li><strong>Rodent Chew-Through:</strong> Conventional woven gunny bags offer zero defense against rodents and pests.</li>
+                    <li><strong>Hazardous Pesticide Dusting:</strong> Ordinary storage requires continuous dusting with chemical pesticides to fight off weevils.</li>
+                  </ul>
+                </div>
+
+                <div className="solution-box">
+                  <h3 style={{ color: '#34d399', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span>🛡️</span> The Thick Cardboard + Metal Ring Solution
+                  </h3>
+                  <ul className="styled-list">
+                    <li><strong>Natural Thermal Insulation (Zero Sweating):</strong> Thick, multi-wall compressed cardboard buffers heat and cold. Internal temperature stays steady, totally eliminating condensation sweating.</li>
+                    <li><strong>Moisture Buffering:</strong> The dense kraft fibre structure breathes micro-humidity out while locking damp ambient air out, maintaining grain safely below 13% critical moisture.</li>
+                    <li><strong>Galvanized Steel Rings on Top & Base:</strong> Rolled steel chimes give the drum exceptional hoop strength, rim durability, and prevent rodent bite-through.</li>
+                    <li><strong>Lever-Action Metal Clamp Locking Ring:</strong> Seals the lid firmly shut, locking out humidity, ambient air, dust, and insects.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Key Advantages Overview (Without capacities) */}
+          <section className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag green">Engineered Design</span>
+                <h2 className="section-title">Key Advantages for Grain Storage</h2>
+                <p className="section-desc">
+                  Every drum is built to heavy-duty standards for farmers, seed collectors, and grain merchants.
+                </p>
+              </div>
+
+              <div className="grain-features-grid">
+                <div className="benefit-card">
+                  <div className="benefit-icon">🛡️</div>
+                  <h4>Zero Moisture Sweating</h4>
+                  <p>Thick cardboard does not sweat like plastic or metal. Temperature remains uniform inside, preventing moisture droplets from dripping on grain.</p>
+                </div>
+
+                <div className="benefit-card">
+                  <div className="benefit-icon">⚙️</div>
+                  <h4>Galvanized Metal Rings</h4>
+                  <p>Top rim and bottom base are reinforced with heavy-duty galvanized steel chimes for maximum structural rigidity and rim protection during rolling.</p>
+                </div>
+
+                <div className="benefit-card">
+                  <div className="benefit-icon">🔒</div>
+                  <h4>Lever-Action Metal Clamp</h4>
+                  <p>Fitted with a strong metal clamp band that snaps tightly over the lid to keep moisture, ambient humidity, and weevils out.</p>
+                </div>
+
+                <div className="benefit-card">
+                  <div className="benefit-icon">🌱</div>
+                  <h4>Chemical-Free Preservation</h4>
+                  <p>Keep your maize, wheat, and beans 100% natural and pesticide-free for eating, selling, or planting without dangerous dusting powders.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Drum Samples Showcase */}
+      <section className="section">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag green">Decorative & Promotional Drums</span>
+            <h2 className="section-title">Drum Samples & Advertisement Displays</h2>
+            <p className="section-desc">
+              Explore Victor Too's decorative cardboard drum displays with galvanized metal rings. These samples are crafted for advertisement, aesthetic presentation, and brand showcasing — combining visual appeal with the structural integrity of real moisture-proof drum engineering.
+            </p>
+          </div>
+
+          <div className="samples-grid">
+            {[
+              { num: 1, title: "Drum Sample 01", desc: "Elegant decorative drum display with polished galvanized metal rings, ideal for storefront advertisement and brand elevation." },
+              { num: 2, title: "Drum Sample 02", desc: "Close-up of ornamental rolled metal rim reinforcement combining aesthetic finish with durable structural design." },
+              { num: 3, title: "Drum Sample 03", desc: "Showcase drum featuring lever-action metal clamp ring, presented as a premium advertisement piece for grain storage solutions." },
+              { num: 4, title: "Drum Sample 04", desc: "Stackable decorative drum configuration demonstrating visual impact and space-efficient promotional display." },
+              { num: 5, title: "Drum Sample 05", desc: "Warehouse advertisement display with branded cardboard drums on wooden pallets, capturing client attention at trade events." },
+              { num: 6, title: "Drum Sample 06", desc: "Complete decorative drum system with lid, metal clamp, and galvanized rims — built for both visual presentation and functional grain preservation." }
+            ].map((sample) => (
+              <div key={sample.num} className="sample-card" onClick={() => setSelectedImage(`assets/images/drum0${sample.num}.jpeg`)}>
+                <div className="sample-img-wrap">
+                  <img 
+                    src={`assets/images/drum0${sample.num}.jpeg`} 
+                    alt={sample.title}
+                    loading="lazy"
+                  />
+                  <span className="sample-badge">Sample {sample.num}</span>
+                </div>
+                <div className="sample-info">
+                  <h4>{sample.title}</h4>
+                  <p>{sample.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Full-Screen Image Modal */}
+      {selectedImage && (
+        <div className="sample-modal-overlay" onClick={() => setSelectedImage(null)}>
+          <div className="sample-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="sample-modal-close" onClick={() => setSelectedImage(null)} aria-label="Close full-screen view">✕</button>
+            <img src={selectedImage} alt="Drum Sample Full Screen" />
+          </div>
+        </div>
+      )}
+
+      {/* 5-Step Grain Preservation Protocol */}
+          <section className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag green">Best Practices</span>
+                <h2 className="section-title">5-Step Moisture-Free Storage Protocol</h2>
+                <p className="section-desc">
+                  Follow Victor Too's storage protocol to maximize the shelf life of your grain:
+                </p>
+              </div>
+
+              <div className="steps-timeline-grid">
+                <div className="step-card">
+                  <div className="step-number">1</div>
+                  <h4>Sun Dry Below 13% Moisture</h4>
+                  <p>Thoroughly sun-dry your maize, beans, or wheat on clean tarpaulins until properly cured and hard.</p>
+                </div>
+                <div className="step-card">
+                  <div className="step-number">2</div>
+                  <h4>Winnow & Clean</h4>
+                  <p>Thoroughly winnow to eliminate dust, chaff, broken kernels, and weed seeds before storing.</p>
+                </div>
+                <div className="step-card">
+                  <div className="step-number">3</div>
+                  <h4>Fill the Cardboard Drum</h4>
+                  <p>Pour grain into the clean, dry drum. Gently tap the sides to settle the grain and maximize density.</p>
+                </div>
+                <div className="step-card">
+                  <div className="step-number">4</div>
+                  <h4>Lock the Metal Clamp Ring</h4>
+                  <p>Place the lid over the top steel chime and clamp the metal locking band shut with the lever.</p>
+                </div>
+                <div className="step-card">
+                  <div className="step-number">5</div>
+                  <h4>Store Elevated in a Shaded Room</h4>
+                  <p>Place the drums on wooden pallets or planks in a cool, ventilated, dry room away from damp floors.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Logistics & Delivery */}
+          <section className="section section-alt">
+            <div className="container">
+              <div className="credentials-banner">
+                <div className="cred-left">
+                  <span className="cred-shield">🚚</span>
+                  <div className="cred-text">
+                    <h4>Nationwide Delivery Across Kenya</h4>
+                    <p>
+                      Delivering thick cardboard drums with metal rings directly to farms, cooperatives, and homes 
+                      in Eldoret, Kitale, Nakuru, Nairobi, Bungoma, Kakamega, Nandi, and countrywide via reliable courier transit.
+                    </p>
+                  </div>
+                </div>
+                <div className="cred-right">
+                  <a 
+                    href="https://wa.me/254758286766?text=Hi%20Victor,%20what%20are%20the%20delivery%20rates%20for%20cardboard%20grain%20drums%20to%20my%20town?" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn-primary"
+                  >
+                    Inquire Delivery to Your Town
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Dedicated Order Builder (No capacities dropdown) */}
+          <section id="order-drums" className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag green">Direct Order</span>
+                <h2 className="section-title">Order Cardboard Grain Storage Drums</h2>
+                <p className="section-desc">
+                  Send your order directly to Victor Too on WhatsApp for instant confirmation and delivery scheduling.
+                </p>
+              </div>
+
+              <div className="quote-builder-card">
+                <form onSubmit={handleOrderSubmit}>
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Quantity of Drums Needed *</label>
+                      <input 
+                        type="number" 
+                        className="form-input" 
+                        min="1" 
+                        max="1000" 
+                        value={quantity} 
+                        onChange={(e) => setQuantity(e.target.value)} 
+                        required 
+                      />
+                    </div>
+
+                    <div className="form-group">
+                      <label>Type of Grain to Store</label>
+                      <select 
+                        className="form-select" 
+                        value={grainType} 
+                        onChange={(e) => setGrainType(e.target.value)}
+                      >
+                        <option value="Shelled Maize / Corn">Shelled Maize / Corn</option>
+                        <option value="Dry Beans & Pulses">Dry Beans & Pulses</option>
+                        <option value="Wheat">Wheat</option>
+                        <option value="Sorghum & Millet">Sorghum & Millet</option>
+                        <option value="Paddy Rice">Paddy Rice</option>
+                        <option value="Certified Seeds">Certified Crop & Vegetable Seeds</option>
+                        <option value="Animal Feed">Animal & Poultry Feeds</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Your Name *</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="e.g., Kipchumba" 
+                        value={customerName} 
+                        onChange={(e) => setCustomerName(e.target.value)} 
+                        required 
+                      />
+                    </div>
+
+                    <div className="form-group">
+                      <label>Your Phone / WhatsApp Number *</label>
+                      <input 
+                        type="tel" 
+                        className="form-input" 
+                        placeholder="e.g., 07XXXXXXXX" 
+                        value={customerPhone} 
+                        onChange={(e) => setCustomerPhone(e.target.value)} 
+                        required 
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label>Delivery Town / Sub-County *</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="e.g., Eldoret, Kitale, Nakuru, Nairobi, Webuye..." 
+                      value={location} 
+                      onChange={(e) => setLocation(e.target.value)} 
+                      required 
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label>Special Instructions or Quantities</label>
+                    <textarea 
+                      className="form-textarea" 
+                      rows="3" 
+                      placeholder="Tell Victor about your harvest timing, specific requirements, or delivery directions..."
+                      value={notes} 
+                      onChange={(e) => setNotes(e.target.value)}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-actions-row">
+                    <button type="submit" className="btn-send-whatsapp">
+                      <span>💬</span> Submit Order via WhatsApp (0758286766)
+                    </button>
+                    <a href="tel:0758286766" className="btn-send-email" style={{ textAlign: 'center' }}>
+                      <span>📞</span> Call Victor Directly: 0758286766
+                    </a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+          {/* Frequently Asked Questions */}
+          <section className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag">Frequently Asked Questions</span>
+                <h2 className="section-title">Common Questions About Cardboard Grain Drums</h2>
+              </div>
+
+              <div className="faq-grid">
+                <div className="faq-card">
+                  <h4>Why are thick cardboard drums better for grain than plastic drums?</h4>
+                  <p>Plastic drums conduct heat quickly during the day and drop rapidly in temperature at night. This causes humidity to condense into water droplets on the inner plastic walls (sweating), which soaks the grain and produces lethal aflatoxins. Thick cardboard is a natural thermal insulator that eliminates internal condensation, keeping the grain completely moisture-free.</p>
+                </div>
+                <div className="faq-card">
+                  <h4>What is the purpose of the metal rings?</h4>
+                  <p>The rolled galvanized steel chimes on the top and bottom rims protect the edges and give the cardboard drum immense hoop strength. The lever clamp ring firmly compresses the lid, ensuring a tight seal that keeps out damp air and pests.</p>
+                </div>
+                <div className="faq-card">
+                  <h4>Can rodents chew through the cardboard drums?</h4>
+                  <p>The dense, multi-ply compressed kraft cardboard is extremely tough and smooth. Reinforced by steel rims and stored elevated on wooden pallets, rats and mice cannot get a chewing purchase on the drum.</p>
+                </div>
+                <div className="faq-card">
+                  <h4>How long can grain safely be preserved in these drums?</h4>
+                  <p>When grain is sun-dried below 13% moisture and sealed with the metal clamp ring, it remains fresh, sweet, and mold-free for 12 to 24+ months without requiring chemical pesticide dusts.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      );
+    }
+
+    // --- PAGE 3: TATTOO ART STUDIO PAGE ---
+    function TattooPage() {
+      const [style, setStyle] = useState('Fine-Line / Micro Realism');
+      const [placement, setPlacement] = useState('Forearm / Wrist');
+      const [size, setSize] = useState('Medium (4-6 inches)');
+      const [name, setName] = useState('');
+      const [phone, setPhone] = useState('');
+      const [description, setDescription] = useState('');
+      const [selectedTattooImage, setSelectedTattooImage] = useState(null);
+
+      const handleBookingSubmit = (e) => {
+        e.preventDefault();
+        let message = `*TATTOO CONSULTATION / BOOKING REQUEST*\n`;
+        message += `👤 Client Name: ${name || 'Prospective Client'}\n`;
+        message += `📞 Phone: ${phone || 'Not provided'}\n`;
+        message += `──────────────────\n`;
+        message += `✒️ *Style:* ${style}\n`;
+        message += `📍 *Placement:* ${placement}\n`;
+        message += `📏 *Estimated Size:* ${size}\n`;
+        if (description) message += `💡 *Design Concept / Idea:* ${description}\n`;
+        message += `──────────────────\n`;
+        message += `Sent from Victor Too's official Tattoo Studio page.`;
+
+        const encoded = encodeURIComponent(message);
+        window.open(`https://wa.me/254758286766?text=${encoded}`, '_blank');
+      };
+
+      const tattooStyles = [
+        {
+          title: "Fine-Line & Botanical",
+          badge: "Signature Craft",
+          desc: "Delicate single-needle and 3RL micro-linework. Perfect for delicate florals, minimalist geometry, and subtle, elegant anatomy placements.",
+          image: "assets/images/tatoo.jpeg"
+        },
+        {
+          title: "Sacred Geometry & Mandalas",
+          badge: "Engineering Precision",
+          desc: "Mathematical symmetry and concentric circular patterns executed with surgical accuracy and uniform line weights that never bleed together.",
+          image: "assets/images/tatoo.jpeg"
+        },
+        {
+          title: "Black & Grey Realism",
+          badge: "Deep Contrast",
+          desc: "Rich stipple gradients, portraits, statues, and dynamic animal designs built with layered greywash tones that age smoothly into healed perfection.",
+          image: "assets/images/tatoo.jpeg"
+        },
+        {
+          title: "Custom Script & Lettering",
+          badge: "Bespoke Typography",
+          desc: "Handcrafted calligraphic scripts, gothic lettering, and meaningful quotes designed to follow the natural contour of muscle groups.",
+          image: "assets/images/tatoo.jpeg"
+        },
+        {
+          title: "Cover-Ups & Restorations",
+          badge: "Transformation",
+          desc: "Strategic restructuring of old, faded, or regretful tattoos using calculated dark saturation and organic flow to give skin a fresh beginning.",
+          image: "assets/images/tatoo.jpeg"
+        }
+      ];
+
+      return (
+        <div className="page-wrapper">
+          <section className="page-hero">
+            <div className="container">
+              <div className="breadcrumb">
+                <a href="#/">Home</a> <span>/</span> <span>Tattoo Art Studio</span>
+              </div>
+              <div className="page-hero-grid">
+                <div>
+                  <span className="section-tag" style={{ color: '#ec4899' }}>Bespoke Tattoo Studio</span>
+                  <h1 className="page-hero-title">
+                    Artistry Meets <br />
+                    <span style={{ color: '#ec4899' }}>Surgical Precision</span>
+                  </h1>
+                  <p className="page-hero-subtitle">
+                    Welcome to Victor Too's private tattoo studio. Transforming concepts into 
+                    permanent wearable art with engineering-level hand stability, custom stencil drafting, 
+                    and uncompromising hospital-grade sterilization protocols.
+                  </p>
+
+                  <div className="hero-social-links-row" style={{ display: 'flex', gap: '0.75rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+                    <a href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" target="_blank" rel="noopener noreferrer" className="social-pill-btn" style={{ background: 'linear-gradient(135deg, #e1306c, #833ab4)', padding: '0.6rem 1.2rem', fontSize: '0.88rem' }}>
+                      <span>📸</span> Follow on Instagram: @fluffy_lizz
+                    </a>
+                    <a href="https://www.tiktok.com/@captain.icur" target="_blank" rel="noopener noreferrer" className="social-pill-btn tiktok" style={{ background: '#000', border: '1px solid #00f2fe', color: '#00f2fe', padding: '0.6rem 1.2rem', fontSize: '0.88rem' }}>
+                      <span>🎵</span> Watch on TikTok: @captain.icur
+                    </a>
+                  </div>
+
+                  <div className="hero-cta-group">
+                    <a href="#book-tattoo" className="btn-primary" style={{ background: 'linear-gradient(135deg, #ec4899, #be185d)', color: '#fff' }}>
+                      <span>✒️</span> Book Tattoo Consultation
+                    </a>
+                    <a href="#styles" className="btn-secondary">
+                      <span>🎨</span> Explore Art Styles
+                    </a>
+                  </div>
+                </div>
+
+                <div className="page-hero-visual">
+                  <img src="assets/images/tatoo.jpeg" alt="Victor Too Tattoo Workstation and Sketches" />
+                  <div className="visual-caption-badge">
+                    <span>✒️ Hospital-Grade Hygiene • Bishop Rotary Pen</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Clinical Hygiene Standards */}
+          <section className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag" style={{ color: '#ec4899' }}>Health & Safety First</span>
+                <h2 className="section-title">Clinical Hygiene & Sterilization Standard</h2>
+                <p className="section-desc">Your safety is sacred. Every setup in Victor Too's studio adheres to stringent cross-contamination controls.</p>
+              </div>
+
+              <div className="grain-features-grid">
+                <div className="benefit-card">
+                  <div className="benefit-icon" style={{ background: 'rgba(236, 72, 153, 0.15)', color: '#ec4899', borderColor: 'rgba(236, 72, 153, 0.3)' }}>🏥</div>
+                  <h4>100% Single-Use Cartridges</h4>
+                  <p>Each needle cartridge is individual blister-packed, pre-sterilized via Ethylene Oxide (EO) gas, and opened only in your direct presence.</p>
+                </div>
+                <div className="benefit-card">
+                  <div className="benefit-icon" style={{ background: 'rgba(236, 72, 153, 0.15)', color: '#ec4899', borderColor: 'rgba(236, 72, 153, 0.3)' }}>🛡️</div>
+                  <h4>Hospital-Grade Biocides</h4>
+                  <p>All work surfaces, armrests, and trays are disinfected before and after every appointment using certified hospital-grade biocides.</p>
+                </div>
+                <div className="benefit-card">
+                  <div className="benefit-icon" style={{ background: 'rgba(236, 72, 153, 0.15)', color: '#ec4899', borderColor: 'rgba(236, 72, 153, 0.3)' }}>🌱</div>
+                  <h4>Certified Vegan Organic Inks</h4>
+                  <p>We use top-tier inks formulated without heavy metal impurities or toxic carriers, ensuring safe healing and lasting vibrancy.</p>
+                </div>
+                <div className="benefit-card">
+                  <div className="benefit-icon" style={{ background: 'rgba(236, 72, 153, 0.15)', color: '#ec4899', borderColor: 'rgba(236, 72, 153, 0.3)' }}>✨</div>
+                  <h4>Full Barrier Film Wrap</h4>
+                  <p>Clip cords, power supplies, wash bottles, and rotary pens are sleeved in disposable barrier films, eliminating cross-contact risks.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Aftercare Guide */}
+          <section className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag" style={{ color: '#ec4899' }}>Preserve Your Ink</span>
+                <h2 className="section-title">Tattoo Aftercare Guide</h2>
+                <p className="section-desc">Great tattoos are 50% inking precision and 50% diligent healing. Follow these golden rules:</p>
+              </div>
+
+              <div className="comparison-cards-row">
+                <div className="solution-box" style={{ borderColor: 'rgba(236, 72, 153, 0.3)', background: 'rgba(236, 72, 153, 0.05)' }}>
+                  <h3 style={{ color: '#f472b6', marginBottom: '1rem' }}>Days 1 to 4: The Healing Seal</h3>
+                  <ul className="styled-list">
+                    <li><strong>Keep Film On:</strong> Leave the medical second-skin bandage on for 3 to 4 days unless it leaks or peels off.</li>
+                    <li><strong>Gentle Wash:</strong> Remove film under lukewarm running water. Wash with fragrance-free antibacterial soap using fingertips only.</li>
+                    <li><strong>Pat Dry:</strong> Gently pat dry with a clean paper towel. Never rub with a bath towel.</li>
+                    <li><strong>Thin Moisturizer:</strong> Apply a tiny pea-sized drop of fragrance-free lotion. Do not suffocate the skin.</li>
+                  </ul>
+                </div>
+
+                <div className="problem-box" style={{ borderColor: 'rgba(245, 158, 11, 0.3)' }}>
+                  <h3 style={{ color: '#fbbf24', marginBottom: '1rem' }}>Days 5 to 21: The Peeling Phase & Rules</h3>
+                  <ul className="styled-list">
+                    <li><strong>NO Scratching or Picking:</strong> The tattoo will flake like a sunburn. Let scabs fall off naturally to prevent ink fallout.</li>
+                    <li><strong>NO Submerging in Water:</strong> Quick showers only. Avoid swimming pools, lakes, jacuzzis, and soaking bathtubs for 3 full weeks.</li>
+                    <li><strong>NO Direct Sun Exposure:</strong> Keep the healing tattoo shaded. Once healed, always apply SPF 50 sunscreen.</li>
+                    <li><strong>Wear Loose Clothing:</strong> Prevent tight fabric friction against the healing artwork.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Tattoo Samples Showcase */}
+          <section className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag" style={{ color: '#ec4899' }}>Tattoo Art Samples</span>
+                <h2 className="section-title">Tattoo Artwork Samples</h2>
+                <p className="section-desc">
+                  Explore Victor Too's tattoo artwork samples showcasing fine-line botanicals, sacred geometry, black & grey realism, and custom lettering. Click any image to view full screen.
+                </p>
+              </div>
+
+              <div className="samples-grid">
+                {[
+                  { num: 1, title: "Tattoo Sample 01", desc: "Delicate fine-line botanical piece with single-needle precision, showcasing natural floral linework and subtle shading.", file: "tattoo01.jpeg" },
+                  { num: 2, title: "Tattoo Sample 02", desc: "Sacred geometry mandala with mathematical symmetry and uniform line weights, executed with surgical accuracy.", file: "tattoo02.jpeg" },
+                  { num: 3, title: "Tattoo Sample 03", desc: "Black & grey realism piece featuring rich stipple gradients and layered greywash tones for deep contrast.", file: "tattoo03.jpeg" }
+                ].map((sample) => (
+                  <div key={sample.num} className="sample-card" onClick={() => setSelectedTattooImage(`assets/images/${sample.file}`)}>
+                    <div className="sample-img-wrap">
+                      <img 
+                        src={`assets/images/${sample.file}`} 
+                        alt={sample.title}
+                        loading="lazy"
+                      />
+                      <span className="sample-badge" style={{ color: '#f472b6', borderColor: 'rgba(236, 72, 153, 0.4)', background: 'rgba(236, 72, 153, 0.15)' }}>Sample {sample.num}</span>
+                    </div>
+                    <div className="sample-info">
+                      <h4>{sample.title}</h4>
+                      <p>{sample.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Full-Screen Tattoo Image Modal */}
+          {selectedTattooImage && (
+            <div className="sample-modal-overlay" onClick={() => setSelectedTattooImage(null)}>
+              <div className="sample-modal-content" onClick={(e) => e.stopPropagation()}>
+                <button className="sample-modal-close" onClick={() => setSelectedTattooImage(null)} aria-label="Close full-screen view">✕</button>
+                <img src={selectedTattooImage} alt="Tattoo Sample Full Screen" />
+              </div>
+            </div>
+          )}
+
+          {/* Tattoo Booking Form */}
+          <section id="book-tattoo" className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag" style={{ color: '#ec4899' }}>Reserve Your Session</span>
+                <h2 className="section-title">Book a Tattoo Consultation</h2>
+                <p className="section-desc">Share your placement and design vision. Victor will review your request and get back with consultation dates.</p>
+              </div>
+
+              <div className="quote-builder-card">
+                <form onSubmit={handleBookingSubmit}>
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Tattoo Style *</label>
+                      <select className="form-select" value={style} onChange={(e) => setStyle(e.target.value)}>
+                        <option value="Fine-Line / Micro Realism">Fine-Line / Botanical Micro Realism</option>
+                        <option value="Sacred Geometry & Mandalas">Sacred Geometry & Mandalas</option>
+                        <option value="Black & Grey Realism">Black & Grey Realism & Shading</option>
+                        <option value="Custom Lettering & Calligraphy">Custom Script & Calligraphy</option>
+                        <option value="Cover-Up / Rework">Cover-Up of Old Tattoo</option>
+                        <option value="Custom Concept Consultation">Custom Concept Discussion</option>
+                      </select>
+                    </div>
+
+                    <div className="form-group">
+                      <label>Body Placement *</label>
+                      <select className="form-select" value={placement} onChange={(e) => setPlacement(e.target.value)}>
+                        <option value="Forearm / Wrist">Forearm / Wrist</option>
+                        <option value="Upper Arm / Bicep / Shoulder">Upper Arm / Shoulder / Bicep</option>
+                        <option value="Full Sleeve">Full Arm Sleeve</option>
+                        <option value="Back / Shoulder Blade">Back / Shoulder Blade</option>
+                        <option value="Chest / Ribs">Chest / Ribs</option>
+                        <option value="Leg / Calf / Ankle / Thigh">Leg / Calf / Thigh / Ankle</option>
+                        <option value="Neck / Behind Ear">Neck / Behind Ear</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Estimated Size *</label>
+                      <select className="form-select" value={size} onChange={(e) => setSize(e.target.value)}>
+                        <option value="Small (<3 inches)">Small (under 3 inches) - Quick 1-hr session</option>
+                        <option value="Medium (4-6 inches)">Medium (4 to 6 inches) - 2-3 hours</option>
+                        <option value="Large (7-10 inches)">Large (7 to 10 inches) - Half day session</option>
+                        <option value="Full Day / Multi-Session">Full Day / Multi-Session Project</option>
+                      </select>
+                    </div>
+
+                    <div className="form-group">
+                      <label>Your Phone / WhatsApp Number *</label>
+                      <input type="tel" className="form-input" placeholder="e.g. 07XXXXXXXX" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label>Your Full Name *</label>
+                    <input type="text" className="form-input" placeholder="e.g. Victor Too / Alex" value={name} onChange={(e) => setName(e.target.value)} required />
+                  </div>
+
+                  <div className="form-group">
+                    <label>Design Concept, Reference Ideas or Meaning</label>
+                    <textarea className="form-textarea" rows="3" placeholder="Describe what you want drawn, reference images you have on Instagram, or if this is a cover-up..." value={description} onChange={(e) => setDescription(e.target.value)}></textarea>
+                  </div>
+
+                  <div className="form-actions-row">
+                    <button type="submit" className="btn-send-whatsapp" style={{ background: 'linear-gradient(135deg, #ec4899, #be185d)', color: '#fff' }}>
+                      <span>✒️</span> Send Booking Request via WhatsApp (0758286766)
+                    </button>
+                    <a href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" target="_blank" rel="noopener noreferrer" className="btn-send-email" style={{ textAlign: 'center' }}>
+                      <span>📸</span> DM on Instagram (@fluffy_lizz)
+                    </a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      );
+    }
+
+    // --- PAGE 4: MECHANICAL ENGINEERING PAGE ---
+    function EngineeringPage() {
+      const [projectType, setProjectType] = useState('3D CAD Modeling & Drafting');
+      const [timeline, setTimeline] = useState('Standard (1 - 2 weeks)');
+      const [name, setName] = useState('');
+      const [phone, setPhone] = useState('');
+      const [specs, setSpecs] = useState('');
+
+      const handleInquirySubmit = (e) => {
+        e.preventDefault();
+        let message = `*MECHANICAL ENGINEERING INQUIRY*\n`;
+        message += `👤 Name: ${name || 'Client'}\n`;
+        message += `📞 Phone: ${phone || 'Not provided'}\n`;
+        message += `──────────────────\n`;
+        message += `⚙️ *Scope:* ${projectType}\n`;
+        message += `⏱️ *Timeline:* ${timeline}\n`;
+        if (specs) message += `📐 *Technical Details / Tolerances:* ${specs}\n`;
+        message += `──────────────────\n`;
+        message += `Sent from Victor Too's official Mechanical Engineering page.`;
+
+        const encoded = encodeURIComponent(message);
+        window.open(`https://wa.me/254758286766?text=${encoded}`, '_blank');
+      };
+
+      const engineeringCapabilities = [
+        {
+          icon: "📐",
+          title: "3D CAD Modeling & Blueprints",
+          desc: "Parametric 3D part design, full mechanical assemblies, bill of materials (BOM), tolerance stack-up analysis, and production-ready manufacturing drawings in SolidWorks and AutoCAD."
+        },
+        {
+          icon: "⚡",
+          title: "Structural Metal Fabrication",
+          desc: "Precision cutting, bending, and structural welding utilizing Shielded Metal Arc Welding (SMAW), TIG, and MIG processes for custom brackets, machine frames, and load-bearing fixtures."
+        },
+        {
+          icon: "🔧",
+          title: "Machinery Diagnostics & Repair",
+          desc: "Troubleshooting mechanical powertrain components, gearboxes, bearing wear, shaft misalignments, hydraulic pumps, and preventative maintenance for agricultural/industrial equipment."
+        },
+        {
+          icon: "🔬",
+          title: "Moisture-Proofing & Structural Sealing",
+          desc: "Applied thermodynamics and thermal insulation analysis. Engineered the galvanized steel rim chimes and lever-clamp locking mechanisms for thick cardboard drums that keep grains completely free from moisture."
+        }
+      ];
+
+      const caseStudies = [
+        {
+          title: "High-Torque Reduction Planetary Gearbox",
+          category: "CAD Design & Prototyping",
+          desc: "Designed full 3D CAD model with simulated gear tooth stress, bearing load calculations, and tolerance fitting for a heavy torque reduction transmission.",
+          specs: "Material: Carbon steel & Phosphor bronze | Tolerance: ±0.02 mm | Efficiency: 96%",
+          image: "assets/images/engineer.jpeg"
+        },
+        {
+          title: "Custom Workshop Heavy-Duty Welding Jigs",
+          category: "Fabrication & Welding",
+          desc: "Engineered and welded rigid structural alignment jigs to eliminate thermal distortion during batch metal frame fabrication.",
+          specs: "Welding: SMAW / TIG multi-pass | High-tensile structural steel | Anti-spatter primer",
+          image: "assets/images/engineer.jpeg"
+        },
+        {
+          title: "Cardboard Drum Steel Ring & Lever Clamp Mechanism",
+          category: "Product Engineering",
+          desc: "Designed and stress-tested the galvanized quick-locking lever ring mechanism and rolled steel chimes that reinforce thick cardboard drums for moisture-free grain storage.",
+          specs: "Material: Rolled galvanized steel chimes & lever-action clamp band | Heavy hoop strength",
+          image: "assets/images/drums.jpeg"
+        }
+      ];
+
+      return (
+        <div className="page-wrapper">
+          <section className="page-hero">
+            <div className="container">
+              <div className="breadcrumb">
+                <a href="#/">Home</a> <span>/</span> <span>Mechanical Engineering</span>
+              </div>
+              <div className="page-hero-grid">
+                <div>
+                  <span className="section-tag cyan">Technical Foundation & Practice</span>
+                  <h1 className="page-hero-title">
+                    Mechanical Engineering <br />
+                    <span style={{ color: 'var(--accent-cyan)' }}>CAD, Fabrication & Diagnostics</span>
+                  </h1>
+                  <p className="page-hero-subtitle">
+                    Bridging mechanical engineering theory with practical workshop craftsmanship. 
+                    Currently in the final stage of completing formal Mechanical Engineering qualifications — 
+                    delivering mathematically sound, structurally robust industrial solutions.
+                  </p>
+
+                  <div className="hero-cta-group">
+                    <a href="#engineering-inquiry" className="btn-primary" style={{ background: 'linear-gradient(135deg, var(--accent-cyan), #0284c7)', color: '#000' }}>
+                      <span>⚙️</span> Inquire About Engineering Project
+                    </a>
+                    <a href="#capabilities" className="btn-secondary">
+                      <span>📐</span> View Capabilities
+                    </a>
+                  </div>
+                </div>
+
+                <div className="page-hero-visual">
+                  <img src="assets/images/engineer.jpeg" alt="Mechanical Engineering Workstation with CAD monitor and tools" />
+                  <div className="visual-caption-badge">
+                    <span>⚙️ Final-Year Mechanical Engineering • CAD / SolidWorks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Academic Banner */}
+          <section className="section" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+            <div className="container">
+              <div className="credentials-banner" style={{ borderColor: 'var(--border-cyan)' }}>
+                <div className="cred-left">
+                  <span className="cred-shield" style={{ color: 'var(--accent-cyan)' }}>🎓</span>
+                  <div className="cred-text">
+                    <h4>Academic & Technical Qualifications in Final Stretch</h4>
+                    <p>Finishing up university qualifications in Mechanical Engineering with coursework covering Solid Mechanics, Fluid Dynamics, Materials Science, Thermodynamics, and Computer-Aided Manufacturing (CAM).</p>
+                  </div>
+                </div>
+                <div className="cred-right">
+                  <div className="id-badge-large" style={{ borderColor: 'var(--accent-cyan)', color: 'var(--accent-cyan)' }}>VERIFIED ID: 41702892</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Capabilities */}
+          <section id="capabilities" className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag cyan">Technical Competencies</span>
+                <h2 className="section-title">Core Engineering Capabilities</h2>
+                <p className="section-desc">From initial sketch and 3D simulation to precision metal fabrication and field machinery troubleshooting.</p>
+              </div>
+
+              <div className="grain-features-grid">
+                {engineeringCapabilities.map((cap, idx) => (
+                  <div key={idx} className="benefit-card" style={{ borderLeft: '3px solid var(--accent-cyan)' }}>
+                    <div className="benefit-icon" style={{ background: 'rgba(6, 182, 212, 0.12)', color: 'var(--accent-cyan)', borderColor: 'rgba(6, 182, 212, 0.3)' }}>
+                      {cap.icon}
+                    </div>
+                    <h4>{cap.title}</h4>
+                    <p>{cap.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Case Studies */}
+          <section className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag cyan">Applied Engineering</span>
+                <h2 className="section-title">Project Case Studies & Prototyping</h2>
+                <p className="section-desc">Highlights of mechanical engineering design, simulation, and fabrication projects.</p>
+              </div>
+
+              <div className="drums-catalog-grid">
+                {caseStudies.map((project, idx) => (
+                  <div key={idx} className="drum-card" style={{ borderColor: 'rgba(6, 182, 212, 0.25)' }}>
+                    <div className="drum-badge-top" style={{ color: '#38bdf8', borderColor: 'rgba(6, 182, 212, 0.3)', background: 'rgba(6, 182, 212, 0.12)' }}>{project.category}</div>
+                    <h3 className="drum-title" style={{ marginTop: '1rem', fontSize: '1.25rem' }}>{project.title}</h3>
+                    <p className="drum-best-for" style={{ minHeight: 'auto', marginBottom: '1rem' }}>{project.desc}</p>
+                    <div style={{ borderRadius: '10px', overflow: 'hidden', marginBottom: '1.25rem', aspectRatio: '16/10' }}>
+                      <img src={project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    </div>
+                    <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '8px', marginBottom: '1.5rem', fontSize: '0.82rem', color: 'var(--text-muted)' }}>
+                      <strong style={{ color: '#fff', display: 'block', marginBottom: '0.2rem' }}>Specs:</strong>
+                      {project.specs}
+                    </div>
+                    <button
+                      onClick={() => {
+                        const text = encodeURIComponent(`Hi Victor, I saw your engineering project "${project.title}" and would like to discuss a similar technical requirement.`);
+                        window.open(`https://wa.me/254758286766?text=${text}`, '_blank');
+                      }}
+                      className="btn-whatsapp-order"
+                      style={{ background: 'linear-gradient(135deg, var(--accent-cyan), #0284c7)', color: '#000' }}
+                    >
+                      <span>⚙️</span> Inquire About This Solution
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Consultation Form */}
+          <section id="engineering-inquiry" className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag cyan">Work With Victor</span>
+                <h2 className="section-title">Request Technical Consultation & Fabrication</h2>
+                <p className="section-desc">Have mechanical drawings, machine parts requiring fabrication, or technical problem solving needed?</p>
+              </div>
+
+              <div className="quote-builder-card">
+                <form onSubmit={handleInquirySubmit}>
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Project Scope / Service *</label>
+                      <select className="form-select" value={projectType} onChange={(e) => setProjectType(e.target.value)}>
+                        <option value="3D CAD Modeling & Drafting">3D CAD Modeling & Drafting (SolidWorks / AutoCAD)</option>
+                        <option value="Structural Metal Fabrication & Welding">Structural Metal Fabrication & Welding</option>
+                        <option value="Machinery Diagnostics & Repair">Machinery Diagnostics & Troubleshooting</option>
+                        <option value="Custom Mechanical Prototype Development">Custom Mechanical Prototype Development</option>
+                        <option value="Cardboard Drum Reinforcement & Sealing">Cardboard Drum Reinforcement & Sealing</option>
+                      </select>
+                    </div>
+
+                    <div className="form-group">
+                      <label>Desired Timeline *</label>
+                      <select className="form-select" value={timeline} onChange={(e) => setTimeline(e.target.value)}>
+                        <option value="Urgent (< 3 days)">Urgent (under 3 days)</option>
+                        <option value="Standard (1 - 2 weeks)">Standard (1 - 2 weeks)</option>
+                        <option value="Flexible / Multi-Phase">Flexible / Multi-Phase Development</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Your Name *</label>
+                      <input type="text" className="form-input" placeholder="e.g. Eng. Kipchumba" value={name} onChange={(e) => setName(e.target.value)} required />
+                    </div>
+
+                    <div className="form-group">
+                      <label>Your Phone / WhatsApp Number *</label>
+                      <input type="tel" className="form-input" placeholder="e.g. 07XXXXXXXX" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label>Technical Details, Dimensions or Specifications</label>
+                    <textarea className="form-textarea" rows="3" placeholder="Specify material types, torque requirements, tolerances, or attach link to blueprints..." value={specs} onChange={(e) => setSpecs(e.target.value)}></textarea>
+                  </div>
+
+                  <div className="form-actions-row">
+                    <button type="submit" className="btn-send-whatsapp" style={{ background: 'linear-gradient(135deg, var(--accent-cyan), #0284c7)', color: '#000' }}>
+                      <span>⚙️</span> Send Inquiry via WhatsApp (0758286766)
+                    </button>
+                    <a href="mailto:erictoo04@gmail.com?subject=Mechanical%20Engineering%20Technical%20Consultation" className="btn-send-email" style={{ textAlign: 'center' }}>
+                      <span>✉️</span> Email Blueprints (erictoo04@gmail.com)
+                    </a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      );
+    }
+
+    // --- PAGE 5: CONTACT & CREDENTIALS PAGE ---
+    function ContactPage() {
+      const [name, setName] = useState('');
+      const [phone, setPhone] = useState('');
+      const [email, setEmail] = useState('');
+      const [subject, setSubject] = useState('General Inquiry');
+      const [message, setMessage] = useState('');
+
+      const handleSendWhatsApp = (e) => {
+        e.preventDefault();
+        let text = `*DIRECT CONTACT INQUIRY - VICTOR TOO*\n`;
+        text += `👤 Name: ${name || 'Prospective Client'}\n`;
+        text += `📞 Phone: ${phone || 'Not provided'}\n`;
+        if (email) text += `✉️ Email: ${email}\n`;
+        text += `📌 Subject: ${subject}\n`;
+        if (message) text += `💬 Message: ${message}\n`;
+        text += `──────────────────\n`;
+        text += `Sent from Victor Too's Contact Page.`;
+
+        const encoded = encodeURIComponent(text);
+        window.open(`https://wa.me/254758286766?text=${encoded}`, '_blank');
+      };
+
+      const handleSendEmail = (e) => {
+        e.preventDefault();
+        const mailSubject = encodeURIComponent(`[Website Inquiry] ${subject} - ${name || 'Client'}`);
+        let body = `Hello Victor,\n\nName: ${name || 'N/A'}\nPhone: ${phone || 'N/A'}\nEmail: ${email || 'N/A'}\nSubject: ${subject}\n\nMessage:\n${message}\n\nBest regards,\n${name || 'Client'}`;
+        const encodedBody = encodeURIComponent(body);
+        window.open(`mailto:erictoo04@gmail.com?subject=${mailSubject}&body=${encodedBody}`, '_blank');
+      };
+
+      return (
+        <div className="page-wrapper">
+          <section className="page-hero">
+            <div className="container">
+              <div className="breadcrumb">
+                <a href="#/">Home</a> <span>/</span> <span>Contact & Verification</span>
+              </div>
+              <div className="page-hero-grid">
+                <div>
+                  <span className="section-tag">Direct Communication</span>
+                  <h1 className="page-hero-title">
+                    Get in Touch with <br />
+                    <span className="gradient-text">Victor Too</span>
+                  </h1>
+                  <p className="page-hero-subtitle">
+                    Whether you need moisture-proof grain storage drums delivered across Kenya, 
+                    want to reserve a custom sterile tattoo session, or wish to consult on a mechanical 
+                    engineering or fabrication design, reach out directly.
+                  </p>
+                  <div className="hero-cta-group">
+                    <a href="https://wa.me/254758286766?text=Hello%20Victor,%20I'm%20contacting%20you%20via%20your%20website." target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#10b981', color: '#000' }}>
+                      <span>💬</span> WhatsApp: 0758286766
+                    </a>
+                    <a href="tel:0758286766" className="btn-secondary">
+                      <span>📞</span> Call: 0758286766
+                    </a>
+                  </div>
+                </div>
+
+                <div className="page-hero-visual">
+                  <div className="credentials-banner" style={{ flexDirection: 'column', alignItems: 'flex-start', gap: '1.25rem', padding: '2rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                      <span style={{ fontSize: '2.5rem' }}>🛡️</span>
+                      <div>
+                        <h3 style={{ color: '#fff', fontSize: '1.25rem', marginBottom: '0.2rem' }}>Verified Professional Identity</h3>
+                        <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>Government of Kenya Verified Citizen & Practitioner</p>
+                      </div>
+                    </div>
+                    <div className="id-badge-large" style={{ fontSize: '1.2rem', padding: '0.8rem 1.5rem', width: '100%', textAlign: 'center' }}>
+                      NATIONAL ID: 41702892
+                    </div>
+                    <p style={{ fontSize: '0.82rem', color: 'var(--text-dim)', lineHeight: 1.5 }}>
+                      Transacting with confidence. Guarantees authenticity, prompt delivery of grain drums, 
+                      and adherence to commercial and hygiene contracts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="section section-alt">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag">Direct Lines</span>
+                <h2 className="section-title">Official Communication Channels</h2>
+                <p className="section-desc">All direct communication is handled personally by Victor Too.</p>
+              </div>
+
+              <div className="contact-cards-grid">
+                <a href="tel:0758286766" className="contact-card">
+                  <div className="contact-card-icon phone">📞</div>
+                  <h4>Direct Phone Call</h4>
+                  <p>For urgent orders, delivery confirmations & inquiries</p>
+                  <div className="card-action-text">0758286766</div>
+                </a>
+
+                <a href="https://wa.me/254758286766?text=Hello%20Victor,%20I'm%20contacting%20you%20via%20your%20website." target="_blank" rel="noopener noreferrer" className="contact-card">
+                  <div className="contact-card-icon whatsapp">💬</div>
+                  <h4>WhatsApp Chat</h4>
+                  <p>Fast messaging, photo references, orders & location sharing</p>
+                  <div className="card-action-text" style={{ color: '#34d399' }}>+254 758 286 766</div>
+                </a>
+
+                <a href="mailto:erictoo04@gmail.com?subject=Website%20Inquiry%20for%20Victor%20Too" className="contact-card">
+                  <div className="contact-card-icon email">✉️</div>
+                  <h4>Official Email</h4>
+                  <p>For CAD blueprints, formal quotations & proposals</p>
+                  <div className="card-action-text" style={{ color: '#60a5fa' }}>erictoo04@gmail.com</div>
+                </a>
+
+                <a href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" target="_blank" rel="noopener noreferrer" className="contact-card">
+                  <div className="contact-card-icon social">📸</div>
+                  <h4>Instagram Profile</h4>
+                  <p>Portfolio reels, live ink sessions & flash releases</p>
+                  <div className="card-action-text" style={{ color: '#f472b6' }}>@fluffy_lizz</div>
+                </a>
+
+                <a href="https://www.tiktok.com/@captain.icur" target="_blank" rel="noopener noreferrer" className="contact-card">
+                  <div className="contact-card-icon" style={{ background: 'rgba(255,255,255,0.1)', color: '#fff' }}>🎵</div>
+                  <h4>TikTok Channel</h4>
+                  <p>Workshops, mechanical designs & creative process</p>
+                  <div className="card-action-text" style={{ color: '#38bdf8' }}>@captain.icur</div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="container">
+              <div className="section-header">
+                <span className="section-tag">Direct Inquiry Form</span>
+                <h2 className="section-title">Send a Message or Request</h2>
+                <p className="section-desc">Fill out this form and choose whether to dispatch your message via WhatsApp or Email.</p>
+              </div>
+
+              <div className="quote-builder-card">
+                <form onSubmit={handleSendWhatsApp}>
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Your Name *</label>
+                      <input type="text" className="form-input" placeholder="e.g. Victor / Alex" value={name} onChange={(e) => setName(e.target.value)} required />
+                    </div>
+
+                    <div className="form-group">
+                      <label>Phone / WhatsApp Number *</label>
+                      <input type="tel" className="form-input" placeholder="e.g. 07XXXXXXXX" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+                    </div>
+                  </div>
+
+                  <div className="form-grid-2">
+                    <div className="form-group">
+                      <label>Email Address (Optional)</label>
+                      <input type="email" className="form-input" placeholder="your.email@example.com" value={email} onChange={(e) => setEmail(e.target.value)} />
+                    </div>
+
+                    <div className="form-group">
+                      <label>Inquiry Topic / Service *</label>
+                      <select className="form-select" value={subject} onChange={(e) => setSubject(e.target.value)}>
+                        <option value="Cardboard Grain Drums Order">Cardboard Grain Drums Order (Thick Cardboard with Metal Rings)</option>
+                        <option value="Tattoo Session Booking">Tattoo Session Booking / Consultation</option>
+                        <option value="Mechanical Engineering CAD & Fabrication">Mechanical Engineering CAD & Fabrication</option>
+                        <option value="Bulk Farm Supply Partnership">Bulk Farm Supply / Cooperative Partnership</option>
+                        <option value="General Question">General Question</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label>Your Message or Project Details *</label>
+                    <textarea className="form-textarea" rows="4" placeholder="Share details about what you need, your town/county, or any specific questions..." value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
+                  </div>
+
+                  <div className="form-actions-row">
+                    <button type="submit" className="btn-send-whatsapp">
+                      <span>💬</span> Send to WhatsApp (0758286766)
+                    </button>
+                    <button type="button" onClick={handleSendEmail} className="btn-send-email">
+                      <span>✉️</span> Send to Email (erictoo04@gmail.com)
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      );
+    }
+
+    // --- MAIN APP CONTROLLER WITH HASH ROUTING ---
+    function App() {
+      const [route, setRoute] = useState(window.location.hash || '#/');
+
+      useEffect(() => {
+        const handleHashChange = () => {
+          const currentHash = window.location.hash || '#/';
+          setRoute(currentHash);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        window.addEventListener('hashchange', handleHashChange);
+        return () => window.removeEventListener('hashchange', handleHashChange);
+      }, []);
+
+      const renderPage = () => {
+        const cleanRoute = route.split('?')[0];
+
+        if (cleanRoute.startsWith('#/drums')) {
+          return <DrumsPage />;
+        }
+        if (cleanRoute.startsWith('#/tattoo')) {
+          return <TattooPage />;
+        }
+        if (cleanRoute.startsWith('#/engineering')) {
+          return <EngineeringPage />;
+        }
+        if (cleanRoute.startsWith('#/contact')) {
+          return <ContactPage />;
+        }
+        return <HomePage />;
+      };
+
+      return (
+        <div className="app-root">
+          <Navbar currentRoute={route} />
+          <main id="main-content">
+            {renderPage()}
+          </main>
+          <Footer />
+        </div>
+      );
+    }
+
+    // Mount React App
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
