@@ -13,11 +13,11 @@ export default function Footer() {
             </p>
             <div className="footer-social-row">
               <a 
-                href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+                href="https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="footer-social-link"
-                title="Instagram (@fluffy_lizz)"
+                title="Instagram (@captainniccure)"
               >
                 📸
               </a>

@@ -13,7 +13,7 @@ A stylish, modern, high-converting React website for **Victor Too**, spotlightin
 - **WhatsApp**: [Direct WhatsApp Chat](https://wa.me/254758286766)
 - **Email**: `erictoo04@gmail.com`
 - **National ID / Verified Identifier**: `41702892`
-- **Instagram**: [@fluffy_lizz](https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy)
+- **Instagram**: [@captainniccure](https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3)
 - **TikTok**: [@captain.icur](https://www.tiktok.com/@captain.icur)
 
 ---

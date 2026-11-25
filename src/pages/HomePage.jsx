@@ -64,7 +64,7 @@ export default function HomePage() {
                   sacred geometry, black & grey realism, lettering, and cover-ups with clinical sterilization.
                 </p>
                 <div className="portal-highlights">
-                  <span>📸 IG: @fluffy_lizz</span>
+                  <span>📸 IG: @captainniccure</span>
                   <span>🎵 TikTok: @captain.icur</span>
                   <span>🏥 100% Sterile</span>
                 </div>

@@ -45,7 +45,7 @@ export default function ContactSection() {
 
           {/* Instagram Card */}
           <a 
-            href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+            href="https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="contact-card"
@@ -53,7 +53,7 @@ export default function ContactSection() {
             <div className="contact-card-icon social">📸</div>
             <h4>Instagram Reels</h4>
             <p>Tattoo portfolio, flash drops & live inking sessions</p>
-            <div className="card-action-text" style={{ color: '#f472b6' }}>@fluffy_lizz</div>
+            <div className="card-action-text" style={{ color: '#f472b6' }}>@captainniccure</div>
           </a>
 
           {/* TikTok Card */}

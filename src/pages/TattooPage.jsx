@@ -84,13 +84,13 @@ export default function TattooPage() {
 
               <div className="hero-social-links-row" style={{ display: 'flex', gap: '0.75rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
                 <a 
-                  href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+                  href="https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="social-pill-btn"
                   style={{ background: 'linear-gradient(135deg, #e1306c, #833ab4)', padding: '0.6rem 1.2rem', fontSize: '0.88rem' }}
                 >
-                  <span>📸</span> Follow on Instagram: @fluffy_lizz
+                  <span>📸</span> Follow on Instagram: @captainniccure
                 </a>
                 <a 
                   href="https://www.tiktok.com/@captain.icur" 
@@ -406,13 +406,13 @@ export default function TattooPage() {
                   <span>✒️</span> Send Booking Request via WhatsApp (0758286766)
                 </button>
                 <a 
-                  href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+                  href="https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-send-email"
                   style={{ textAlign: 'center' }}
                 >
-                  <span>📸</span> DM on Instagram (@fluffy_lizz)
+                  <span>📸</span> DM on Instagram (@captainniccure)
                 </a>
               </div>
             </form>

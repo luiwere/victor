@@ -21,12 +21,12 @@ export default function PillarTattoo() {
             />
             <div className="tattoo-social-overlay">
               <a 
-                href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+                href="https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="social-pill-btn"
               >
-                <span>📸</span> IG @fluffy_lizz
+                <span>📸</span> IG @captainniccure
               </a>
               <a 
                 href="https://www.tiktok.com/@captain.icur" 
@@ -78,7 +78,7 @@ export default function PillarTattoo() {
                 <span>✒️</span> Book Tattoo Consultation
               </a>
               <a 
-                href="https://www.instagram.com/fluffy_lizz?xtok=OGtzN3VpY3BoMnpy" 
+                href="https://www.instagram.com/captainniccure?hvrq=cXk3bjljNGo4MWE3" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-secondary"
