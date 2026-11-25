@@ -5,11 +5,6 @@ export default function Hero() {
     <section id="hero" className="hero-section">
       <div className="container hero-grid">
         <div className="hero-content">
-          <div className="hero-pill-badge">
-            <span className="pulse-dot"></span>
-            <span>Active & Accepting Inquiries Across Kenya</span>
-          </div>
-
           <h1 className="hero-title">
             Precision Engineering. <br />
             <span className="gradient-text">Artistic Mastery.</span> <br />
